@@ -1,0 +1,51 @@
+{
+	"Name": "Claude Needs You",
+	"Version": "0.1.0.0",
+	"Author": "Fernando Bittencourt",
+	"Actions": [
+		{
+			"Name": "Claude Needs You",
+			"UUID": "com.fghbittencourt.claude-needs-you.alert",
+			"Icon": "imgs/actions/counter/icon",
+			"Tooltip": "Pisca quando o Claude precisa de input; clique para focar o VSCode.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/counter/key",
+					"Title": "Claude",
+					"TitleAlignment": "middle"
+				},
+				{
+					"Image": "imgs/actions/counter/alert",
+					"Title": "👀",
+					"TitleAlignment": "middle"
+				}
+			]
+		}
+	],
+	"Category": "com.fghbittencourt.claude-needs-you",
+	"CategoryIcon": "imgs/plugin/category-icon",
+	"CodePath": "bin/plugin.js",
+	"Description": "Blinks when Claude Code needs your input. Click to focus VS Code.",
+	"Icon": "imgs/plugin/marketplace",
+	"SDKVersion": 3,
+	"Software": {
+		"MinimumVersion": "7.1"
+	},
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "12"
+		},
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Nodejs": {
+		"Version": "24"
+	},
+	"UUID": "com.fghbittencourt.claude-needs-you"
+}
