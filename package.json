@@ -1,4 +1,13 @@
 {
+    "name": "claude-needs-you",
+    "version": "0.1.0",
+    "description": "Stream Deck plugin that blinks when Claude Code needs your input and focuses VS Code on click",
+    "author": "Fernando Bittencourt",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fghbittencourt/claude-needs-you.git"
+    },
     "scripts": {
         "build": "rollup -c",
         "watch": "rollup -c -w --watch.onEnd=\"streamdeck restart com.fghbittencourt.claude-needs-you\""

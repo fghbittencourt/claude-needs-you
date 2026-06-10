@@ -1,5 +1,7 @@
 # Claude Needs You — Stream Deck Plugin
 
+> **macOS only.** The hook relies on `osascript` to detect the active window, which is not available on other platforms.
+
 Stream Deck plugin that blinks a button when Claude Code needs your input, and focuses VS Code when you click it.
 
 ## How it works
@@ -56,6 +58,8 @@ Add to your project's `.claude/settings.local.json`:
 }
 ```
 
+> **Tip:** add this to `~/.claude/settings.json` instead to apply it to all your projects at once.
+
 ### 4. Add the action to your Stream Deck profile
 
 Open the Stream Deck app, find **Claude Needs You** in the plugin list, and drag the action to a button.
@@ -78,3 +82,11 @@ make clear    # manually stop blink
 
 - The `Stop` hook does not fire while Claude is waiting for an `AskUserQuestion` response (mid-turn tool call). See [open issue](https://github.com/anthropics/claude-code/issues).
 - Requires the Stream Deck plugin to be running (Stream Deck app open) for the HTTP server to be available.
+
+## Contributing
+
+PRs welcome. Keep changes focused — this plugin is intentionally minimal.
+
+## License
+
+[MIT](LICENSE)
