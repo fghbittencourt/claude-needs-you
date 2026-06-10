@@ -1,6 +1,8 @@
 # Claude Needs You — Stream Deck Plugin
 
 > **macOS only.** The hook relies on `osascript` to detect the active window, which is not available on other platforms.
+>
+> **Claude Code only.** Works with the Claude Code CLI and VS Code extension. Does not work with Claude Desktop or claude.ai.
 
 Stream Deck plugin that blinks a button when Claude Code needs your input, and focuses VS Code when you click it.
 
