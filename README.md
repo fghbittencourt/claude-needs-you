@@ -4,6 +4,8 @@
 
 Stream Deck plugin that blinks a button when Claude Code needs your input, and focuses VS Code when you click it.
 
+![demo](demo.gif)
+
 ## How it works
 
 - A Claude Code `Stop` hook fires `curl POST localhost:37999/blink` whenever Claude finishes a response and is waiting for input — but only if VS Code is **not** in focus
