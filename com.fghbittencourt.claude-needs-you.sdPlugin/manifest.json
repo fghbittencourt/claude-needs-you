@@ -14,13 +14,11 @@
 			"States": [
 				{
 					"Image": "imgs/actions/counter/key",
-					"Title": "Claude",
-					"TitleAlignment": "middle"
+					"Title": ""
 				},
 				{
 					"Image": "imgs/actions/counter/alert",
-					"Title": "👀",
-					"TitleAlignment": "middle"
+					"Title": ""
 				}
 			]
 		}
