@@ -84,7 +84,7 @@ make clear    # manually stop blink
 
 ## Known limitations
 
-- The `Stop` hook does not fire while Claude is waiting for an `AskUserQuestion` response (mid-turn tool call). See [open issue](https://github.com/anthropics/claude-code/issues).
+- The `Stop` hook does not fire while Claude is waiting for an `AskUserQuestion` response (mid-turn tool call). See [open issue](https://github.com/anthropics/claude-code/issues/66704).
 - Requires the Stream Deck plugin to be running (Stream Deck app open) for the HTTP server to be available.
 - If you have multiple VS Code windows open, clicking the button brings the app to the front but macOS decides which window to show (usually the last one in focus). There is no way to target a specific window with this approach.
 
